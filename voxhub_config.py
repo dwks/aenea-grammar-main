@@ -8,7 +8,7 @@ VoxhubEngine engine configuration module.
 SERVER = "silvius-server.voxhub.io"
 
 # Server port
-PORT = "8018"
+PORT = "8020"
 
 # Use the specified content type (default is " + content_type + ")"
 CONTENT_TYPE = "audio/x-raw, layout=(string)interleaved, rate=(int)16000, format=(string)S16LE, channels=(int)1"

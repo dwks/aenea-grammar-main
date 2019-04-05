@@ -145,7 +145,7 @@ letterMap = {
     "(uniform) ": "u",
     "(victor) ": "v",
     "(whiskey) ": "w",
-    "(x-ray) ": "x",
+    "(x.-ray|x-ray) ": "x",
     "(yankee) ": "y",
     "(zulu|zipper) ": "z",
 }
