@@ -17,7 +17,7 @@ CONTENT_TYPE = "audio/x-raw, layout=(string)interleaved, rate=(int)16000, format
 PATH = 'client/ws/speech'
 
 MISC_CONFIG = {
-                'device': 9,                       # Select a different microphone (give device ID)
+                'device': -1,                       # Select a different microphone (give device ID)
                 'keep_going': False,                # Keep reconnecting to the server after periods of silence
                 'hypotheses': True,                 # Show partial recognition hypotheses (default: True)
                 'audio_gate': 0,                    # Audio-gate level to reduce detections when not talking
